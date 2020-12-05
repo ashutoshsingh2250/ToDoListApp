@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo List</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/todo.js"></script>
+</head>
+<body>
+    <div>
+        <h1>My ToDo List</h1>
+    </div>
+
+    <div>
+        <input id="task-input" type="text" placeholder="Enter a task...">
+        <button id="add-item-btn" type="submit"><b>Add Item</b></button>
+        <p>Double Click on a Task to edit</p>
+    </div>
+
+    <br>
+    <div id="task-list-div">
+        <ol id="task-list-ol">
+            <li>
+                <span>Task Name</span>
+                <button class="Done">Done</button>
+                <button class="Delete">Delete</button>
+            </li><br>
+            
+            <li>
+                <span>Task2 Name</span>
+                <button class="Done">Done</button>
+                <button class="Delete">Delete</button>
+            </li><br>
+
+        </ol>
+    </div>
+
+    <div>
+        <button id="clear-all-btn" type="submit">Clear All</button>
+    </div>
+</body>
+</html>
